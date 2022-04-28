@@ -5,15 +5,17 @@
 1. 什么是mysql
 <p>数据库：存储数据的仓库</p>
 <p>数据库管理系统：操作和管理数据库的大型软件</p>
-<p>sql:操作关系型数据库的<b>编程语言 </b>，定义了一套<b>标准 </b></p>
-* 下载链接：https://dev.mysql.com/downloads/mysql/
+<p>sql:操作关系型数据库的<b>编程语言</b>，定义了一套<b>标准</b> </p>
+	* 下载链接：https://dev.mysql.com/downloads/file/?id=511553
 2. SQL
 3. 函数
 4. 约束
 5. 多表查询
 6. 事务
 #### 2. 进阶
+
 #### 3. 运维
+
 ## JDBC（java连接数据库）
 1. Java Database Connectivity (Java语言连接数据库)
 2. JDBC的本质 是SUN公司指定的一套接口（interface）
