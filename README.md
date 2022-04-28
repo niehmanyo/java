@@ -1,4 +1,18 @@
 # Java_web study route
+
+## MYSQL
+#### 1. 基础
+1. 什么是mysql
+<p>数据库：存储数据的仓库</p>
+<p>数据库管理系统：操作和管理数据库的大型软件</p>
+<p>sql:操作关系型数据库的<b color="red">编程语言 </b>，定义了一套<b color="red">标准 </b></p>
+2. SQL
+3. 函数
+4. 约束
+5. 多表查询
+6. 事务
+#### 2. 进阶
+#### 3. 运维
 ## JDBC（java连接数据库）
 1. Java Database Connectivity (Java语言连接数据库)
 2. JDBC的本质 是SUN公司指定的一套接口（interface）
@@ -8,7 +22,11 @@
 	* 不提倡： Dog a = new Dog();
 			  Cat b  = new Cat();
 
-	</b> 
+	</b>
+4. 为什么SUN制定了一套JDBC接口？
+	<p>因为每一个数据库底层实现原理不同</p>
+		<p>Oracle数据库有自己的原理</p>
+		<p>MySQL 也有自己的原理</p> 
 ## Servlet (关于系统架构)
 1. 系统架构：
 	* C/S架构
