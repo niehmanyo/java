@@ -5,7 +5,8 @@
 1. 什么是mysql
 <p>数据库：存储数据的仓库</p>
 <p>数据库管理系统：操作和管理数据库的大型软件</p>
-<p>sql:操作关系型数据库的<b color="red">编程语言 </b>，定义了一套<b color="red">标准 </b></p>
+<p>sql:操作关系型数据库的<b>编程语言 </b>，定义了一套<b>标准 </b></p>
+* 下载链接：https://dev.mysql.com/downloads/mysql/
 2. SQL
 3. 函数
 4. 约束
@@ -16,13 +17,13 @@
 ## JDBC（java连接数据库）
 1. Java Database Connectivity (Java语言连接数据库)
 2. JDBC的本质 是SUN公司指定的一套接口（interface）
-3. <b>为什么面向接口编程？ 解耦合：降低程序的耦合度，提升程序的扩展力。多态机制：面向抽象编程而不是具体
+3. <b>为什么面向接口编程？ 解耦合：降低程序的耦合度，提升程序的扩展力。多态机制：面向抽象编程而不是具体</b>
 	* 提倡： Animal a = new Cat();
 			 Animal b = new Dog();
 	* 不提倡： Dog a = new Dog();
 			  Cat b  = new Cat();
 
-	</b>
+	
 4. 为什么SUN制定了一套JDBC接口？
 	<p>因为每一个数据库底层实现原理不同</p>
 		<p>Oracle数据库有自己的原理</p>
