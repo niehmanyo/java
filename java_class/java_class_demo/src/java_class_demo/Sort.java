@@ -5,19 +5,23 @@ import java.util.concurrent.ConcurrentMap;
 
 
 public class Sort {
+    Object []a1;
     public Sort(Comparable []a)
     {
-
+        this.a1=a;
     }
-    public void exchange(Comparable []a,int i,int j)
+    public void exchange(Comparable []a1,int i,int j)
     {
-        Object x = a[i];
-        a[i]=a[j];
-        a[j]= (Comparable) x;
+        Object x = a1[i];
+        a1[i]=a1[j];
+        a1[j]= (Comparable) x;
     }
-    public int less(Comparable []a,int i,int j)
+    public boolean less(Comparable []a,int i,int j)
     {
-        return a[i].compareTo(a[j]);
+        if(a[i].compareTo(a[j])==-1)
+            return true;
+        else
+            return false;
     }
     public void SelectSort(Comparable []a)
     {
@@ -26,7 +30,7 @@ public class Sort {
             int min_index=i;
             for(int j=i+1;j<a.length;j++)
             {
-                if(less(a,min_index,j)>=0)
+                if(a[j].compareTo(a[min_index])==-1)
                     min_index=j;
             }
             exchange(a,i,min_index);
@@ -34,6 +38,13 @@ public class Sort {
     }
     public void InsertSost(Comparable []a)
     {
-
+        for(int i=1;i<a.length;i++)
+        {
+            for(int j=i;j>0;j--)
+            {
+                if(less(a,j-1,j))
+                    exchange(a,j,j-1);
+            }
+        }
     }
 }
