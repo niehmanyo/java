@@ -1,5 +1,6 @@
 package java_class_demo;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main {
@@ -11,6 +12,7 @@ public class Main {
         string_table.add("niewenyu1",123);
         System.out.println(string_table.size);
         string_table.PrintKey();
+        
     }
 }
 
